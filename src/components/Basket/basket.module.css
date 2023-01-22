@@ -1,0 +1,33 @@
+.basket{
+    width: 90px;
+    height: 90px;
+    background: #FED478;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    font-size: 32px;
+    outline: 20px solid transparent;
+    text-align: center;
+    line-height: 90px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.basket:hover{
+    outline: 20px solid #d59827;
+}
+.basket::before{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    color: #fff;
+    min-width: 40px;
+    height: 40px;
+    font-size: 24px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background: #f00;
+    content: attr(data-product-count);
+}
+

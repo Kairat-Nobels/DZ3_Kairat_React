@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.tovar{
+    display: flex;
+    width: 300px;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    background: #fafafa;
+    border-radius: 12px;
+    border: 1px solid #d8d8d8;
+}
+.image{
+    width: 210px;
+    transition: .4s;
+}
+.tovar:hover .image{
+    transform: scale(1.14);
+}
+.tovar h3{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.tovar div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tovar button{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    background: #FED478;
+    padding: 8px;
+    border: 2px solid #BF2E1A;
+    transition: .3s;
+}
+.tovar button:hover{
+    transform: scale(1.1);
+    background: gold;
+    box-shadow: 0px 0px 20px #BF2E1A;
+    border: none;
+}
+.tovar p{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(55, 54, 54)
+}
+.tovar span{
+    font-size: 18px;
+    font-weight: 700;
+    color: #213547;;
+}
